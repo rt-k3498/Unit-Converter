@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Unit Converter</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div id="trial">
+        <div id="trial1">
+        </div>
+        <div id="trial2">
+        </div>
+      </div>
+      <h1>
+        Unit Converter
+      </h1>
+    </header>
+
+    <br>
+
+    <section id="temperature">
+      <div>
+        <h3>
+          Temperature conversion
+        </h3>
+        <label for="farenheit">Enter your Value here:</label>
+        <input type="text" id="farenheit" class="font" placeholder="Farenheit">
+        <button id="temp" onclick="changeval1()" class="font">convert
+        </button>
+        <button onclick="reverse1()" class="font">
+          inverse
+        </button>
+        <p>
+          The conversion value in <span id="tunitchange">celsius</span> is: <span id="answertemp">NONE</span>
+        </p>
+      </div>
+    </section>
+
+    <section id="weight">
+      <div>
+        <h3>
+          Weight conversion
+        </h3>
+        <label for="pounds">Enter your Value here:</label>
+        <input type="text" id="pounds" class="font" placeholder="Pounds">
+        <button id="weight" onclick="changeval2()" class="font">convert
+        </button>
+        <button onclick="reverse2()" class="font">
+          inverse
+        </button>
+        <p>
+          The conversion value in <span id="wunitchange">kilograms</span> is: <span id="answerweight">NONE</span>
+        </p>
+      </div>
+    </section>
+
+    <section id="distance">
+      <div>
+        <h3>
+          Distance conversion
+        </h3>
+        <label for="miles">Enter your Value here:</label>
+        <input type="text" id="miles" class="font" placeholder="Miles">
+        <button id="dist" onclick="changeval3()" class="font">convert
+        </button>
+        <button onclick="reverse3()" class="font">
+          inverse
+        </button>
+        <p>
+          The conversion value in <span id="dunitchange">kilometers</span> is: <span id="answerdist">NONE</span>
+        </p>
+      </div>
+    </section>
+
+  </body>
+
+</html>
