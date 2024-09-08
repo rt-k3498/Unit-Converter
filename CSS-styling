@@ -1,0 +1,84 @@
+h1 {
+  position: absolute;
+  left: 37%;
+  text-align: center;
+
+}
+
+#farenheit {
+  border: solid black;
+  text-align: center;
+}
+
+#pounds {
+  border: solid black;
+  text-align: center;
+}
+
+#miles {
+  border: solid black;
+  text-align: center;
+}
+
+#temperature {
+
+  margin-left: 30px;
+}
+
+#weight {
+
+  margin-left: 30px;
+}
+
+#distance {
+
+  margin-left: 30px;
+}
+
+body {
+  font-family: Chalkduster !important;
+  border: solid;
+}
+
+#trial {
+  flex-shrink: 1;
+  border: solid black;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: relative;
+}
+
+#trial1 {
+  border: solid black;
+  background-color: blue;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+#trial2 {
+  border: solid black;
+  background-color: green;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.font {
+  font-family: chalkduster;
+}
+
+header {
+  display: flex;
+  border: 5px solid;
+  padding: 5px;
+}
+
+section {
+  margin: 40px;
+}
